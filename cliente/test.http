@@ -1,0 +1,20 @@
+GET http://localhost:3500/api/v1/anime
+###
+POST http://localhost:3500/api/v1/anime
+Content-Type: application/json
+
+{
+    "nombre": "vinlan Saga",
+    "autor": "	Makoto Yukimura",
+    "genero": "Seinen",
+    "año": "2019"   
+}
+###
+PUT http://localhost:3500/api/v1/anime/86ee
+Content-Type: application/json
+
+{
+    "genero": "Ciencia Ficcion"
+}
+###
+DELETE http://localhost:3500/api/v1/anime/5
